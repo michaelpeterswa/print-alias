@@ -37,5 +37,5 @@ _print-alias-accept-line () {
     zle .accept-line
 }
 
-# Test
+echo "test"
 zle -N accept-line _print-alias-accept-line
